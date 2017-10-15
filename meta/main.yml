@@ -1,7 +1,8 @@
 ---
 dependencies:
   - geerlingguy.java
-  - geerlingguy.mysql
+  - git+https://github.com/scottteglasi/ansible-role-mysql.git
+    version: mysql-community-5.7
 
 galaxy_info:
   author: geerlingguy
